@@ -1,4 +1,4 @@
-function visualizeRoSEest(loc_data,sideL,binSz)
+function visualizeRoSEest(loc_data,sideL,binSz,figPrint)
 
 locdata = loc_data(:,[2,3,11:14,4]);
 locdata(locdata(:,5)<0,[3:5]) = -locdata(locdata(:,5)<0,[3:5]);
@@ -100,6 +100,9 @@ colormap(s3,cMapP); caxis([0,90]); set(gca,'xtick',[],'ytick',[]); colorbar; axi
 s4 = subplot(2,3,6);
 imagesc(gammaPlot); set(gca,'ydir','normal');
 colormap(s4,cMapP); caxis([0,1]); set(gca,'xtick',[],'ytick',[]); colorbar; axis image; title('\gamma (rotational constraint)');
+if strcmp(figPrint,'on')
+    print('fibrils_NileRed','-dpng');
+end
 
 figure(103);
 set(gcf,'position',[100,100,1000,900]);
@@ -107,5 +110,8 @@ plot((locdata(:,1)+100*[-cosd(locdata(:,3)),cosd(locdata(:,3))])'/1e3,(locdata(:
 axis image;
 xlabel('x (μm)'); ylabel('y (μm)');
 title('in-plane orientation');
+if strcmp(figPrint,'on')
+    print('fibrils_NileRed_phi','-dpng');
+end
 
 end
