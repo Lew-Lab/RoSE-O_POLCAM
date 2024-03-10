@@ -16,7 +16,7 @@ bioRxiv preprint: [POLCAM: Instant molecular orientation microscopy for the life
 - `RoSEO_PolCam_simData_demo.m`: Simulate POLCAM data using predefined parameters, analyze the data using RoSE-O, and evaluate the detection performance and estimation accuracy and precision.
 - `RoSEO_PolCam_fibrils_demo.m`: Analyze experimental POLCAM-SMOLM images of amyloid fibrils using RoSE-O. The raw images required for this analysis are available in the data repository.
 - Sample data required to run this code is available from the [Lew Lab OSF repository](https://osf.io/utjmr/):
-  - `fibrils_NileRed_0.tif`: 
-  - `fibrils_NileRed_n45.tif`: 
-  - `fibrils_NileRed_p45.tif`: 
-  - `fibrils_NileRed_90.tif`: 
+  - `fibrils_NileRed_0.tif`: https://osf.io/download/65ededc74dfd8c0b0b27fcf2/
+  - `fibrils_NileRed_n45.tif`: https://osf.io/download/65eded5a8992ec0b57788b41/
+  - `fibrils_NileRed_p45.tif`: https://osf.io/download/65eded8b4dfd8c0b1227f52b/
+  - `fibrils_NileRed_90.tif`: https://osf.io/download/65eded87e5e51c0b6ebc5ef6/
