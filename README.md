@@ -20,3 +20,5 @@ bioRxiv preprint: [POLCAM: Instant molecular orientation microscopy for the life
   - `fibrils_NileRed_n45.tif`: https://osf.io/download/65eded5a8992ec0b57788b41/
   - `fibrils_NileRed_p45.tif`: https://osf.io/download/65eded8b4dfd8c0b1227f52b/
   - `fibrils_NileRed_90.tif`: https://osf.io/download/65eded87e5e51c0b6ebc5ef6/
+
+RRID:SCR_025340
